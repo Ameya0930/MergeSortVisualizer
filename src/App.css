@@ -1,0 +1,51 @@
+/* SortingVisualizer.css */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.array-container {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.array-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80vh;
+}
+
+.array-bar {
+  width: 2px;
+  background-color: turquoise;
+  margin: 0 1px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: black;
+}
+
+.button-container button:hover {
+  background-color: #4fa3d3;
+}
